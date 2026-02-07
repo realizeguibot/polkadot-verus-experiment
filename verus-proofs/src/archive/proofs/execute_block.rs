@@ -1,8 +1,8 @@
 use vstd::prelude::*;
-use crate::model_digest::*;
-use crate::model_header::*;
-use crate::proofs::final_checks::*;
-use crate::proofs::apply_extrinsics::*;
+use crate::archive::model_digest::*;
+use crate::archive::model_header::*;
+use crate::archive::proofs::final_checks::*;
+use crate::archive::proofs::apply_extrinsics::*;
 
 verus! {
 

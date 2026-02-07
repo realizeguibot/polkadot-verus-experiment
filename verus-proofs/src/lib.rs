@@ -1,5 +1,6 @@
-pub mod model_digest;
-pub mod model_header;
-pub mod proofs;
+pub mod archive;
+pub mod milestone1;
+pub mod milestone2;
+pub mod milestone3;
 
 fn main() {}

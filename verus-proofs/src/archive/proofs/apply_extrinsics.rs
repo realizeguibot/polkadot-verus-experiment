@@ -1,6 +1,6 @@
 use vstd::prelude::*;
-use crate::model_digest::*;
-use crate::model_header::*;
+use crate::archive::model_digest::*;
+use crate::archive::model_header::*;
 
 verus! {
 
