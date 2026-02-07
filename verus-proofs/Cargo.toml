@@ -2,3 +2,10 @@
 name = "verus-proofs"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+vstd = "=0.0.0-2026-01-25-0057"
+parity-scale-codec = { path = "../parity-scale-codec", default-features = false }
+
+[package.metadata.verus]
+verify = true
