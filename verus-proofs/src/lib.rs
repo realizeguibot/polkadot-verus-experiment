@@ -1,6 +1,9 @@
 pub mod archive;
-pub mod milestone1;
-pub mod milestone2;
-pub mod milestone3;
+
+pub mod system;
+pub mod executive;
+pub mod balances;
+pub mod timestamp;
+pub mod aura;
 
 fn main() {}
