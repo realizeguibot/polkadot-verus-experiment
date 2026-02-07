@@ -6,4 +6,6 @@ pub mod balances;
 pub mod timestamp;
 pub mod aura;
 
+pub mod codec;
+
 fn main() {}
