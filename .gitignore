@@ -1,0 +1,10 @@
+# Large cloned reference repos (not our work)
+polkadot-sdk/
+runtimes/
+verus/
+
+# Verus binary distribution
+verus-bin/
+
+# Rust build artifacts
+target/
