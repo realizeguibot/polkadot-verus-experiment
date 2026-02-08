@@ -98,6 +98,12 @@ where
 #[impl_trait_for_tuples::impl_for_tuples(18)]
 impl DecodeWithMemTracking for Tuple {}
 
+// BitVec (feature-gated)
+#[cfg(feature = "bit-vec")]
+impl<O: bitvec::order::BitOrder, T: bitvec::store::BitStore + Decode> DecodeWithMemTracking for bitvec::vec::BitVec<T, O> {}
+#[cfg(feature = "bit-vec")]
+impl<O: bitvec::order::BitOrder, T: bitvec::store::BitStore + Decode> DecodeWithMemTracking for bitvec::boxed::BitBox<T, O> {}
+
 // Bytes (feature-gated)
 #[cfg(feature = "bytes")]
 impl DecodeWithMemTracking for bytes::Bytes {}

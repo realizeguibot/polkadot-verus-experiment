@@ -119,6 +119,7 @@ verus! {
 // --- Verus specifications for std/crate types used in verified code ---
 
 #[verifier::external_type_specification]
+#[verifier::external_body]
 pub struct ExError(Error);
 
 pub assume_specification [ <Error as core::convert::From<&'static str>>::from ]
@@ -1542,17 +1543,12 @@ impl Encode for u8 {
 		self.using_encoded(|buf| dest.write(buf))
 	}
 
-	// encode() inlined: creates Vec, calls encode_to (which writes one byte)
+	// encode() inlined: creates Vec, pushes one byte
 	fn encode(&self) -> (r: Vec<u8>)
 		ensures r@ =~= seq![*self],
 	{
 		let mut r: Vec<u8> = Vec::with_capacity(self.size_hint());
-		// Inline the encode_to → using_encoded → Output::write chain:
-		// encode_to calls using_encoded(|buf| r.write(buf))
-		// using_encoded calls f(&[*self as u8][..])
-		// = r.write(&[*self])
-		let buf: [u8; 1] = [*self];
-		r.write(&buf);
+		r.push(*self);
 		r
 	}
 
