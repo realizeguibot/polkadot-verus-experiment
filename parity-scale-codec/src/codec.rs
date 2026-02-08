@@ -1580,7 +1580,11 @@ pub fn u8_encode(val: u8) -> (r: Vec<u8>)
 /// Inlines: u8::decode → Input::read_byte → <&[u8] as Input>::read
 pub fn u8_decode_from_slice(input: &mut &[u8]) -> (result: Result<u8, Error>)
 	ensures
-		(*old(input))@.len() >= 1 ==> (result is Ok && result.unwrap() == (*old(input))@[0]),
+		(*old(input))@.len() >= 1 ==> (
+			result is Ok
+			&& result.unwrap() == (*old(input))@[0]
+			&& (*input)@.len() == (*old(input))@.len() - 1
+		),
 		(*old(input))@.len() < 1 ==> result is Err,
 {
 	if input.len() < 1 {
@@ -1620,6 +1624,48 @@ pub fn theorem_u8_roundtrip(val: u8) -> (result: Result<u8, Error>)
 	let decoded: Result<u8, Error> = u8_decode_from_slice(&mut cursor);
 
 	decoded
+}
+
+/// u8 decode_all from &[u8] — inlines DecodeAll::decode_all for u8.
+/// Decodes a u8 and verifies all input is consumed (exactly 1 byte).
+pub fn u8_decode_all_from_slice(input: &mut &[u8]) -> (result: Result<u8, Error>)
+	ensures
+		(*old(input))@.len() == 1 ==> (result is Ok && result.unwrap() == (*old(input))@[0]),
+		(*old(input))@.len() != 1 ==> result is Err,
+{
+	let res = u8_decode_from_slice(input);
+	match res {
+		Err(e) => Err(e),
+		Ok(val) => {
+			if input.len() == 0 {
+				Ok(val)
+			} else {
+				Err(Error::from("Input buffer has still data left after decoding!"))
+			}
+		}
+	}
+}
+
+/// Theorem: u8 SCALE decode-then-encode roundtrip.
+///
+/// For any byte array, if decode_all successfully decodes it as a u8,
+/// then re-encoding that u8 produces the original byte array.
+/// Equivalently: for a 1-byte array, decode_all then encode is the identity;
+/// for any other length, decode_all fails.
+pub fn theorem_u8_decode_encode_roundtrip(data: &[u8]) -> (result: Result<Vec<u8>, Error>)
+	ensures
+		data@.len() == 1 ==> (result is Ok && result.unwrap()@ =~= data@),
+		data@.len() != 1 ==> result is Err,
+{
+	let mut cursor: &[u8] = data;
+	let decoded = u8_decode_all_from_slice(&mut cursor);
+	match decoded {
+		Err(e) => Err(e),
+		Ok(val) => {
+			let encoded: Vec<u8> = u8_encode(val);
+			Ok(encoded)
+		}
+	}
 }
 
 } // verus! (u8 standalone + proof)
