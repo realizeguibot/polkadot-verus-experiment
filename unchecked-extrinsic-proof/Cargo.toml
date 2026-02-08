@@ -1,0 +1,11 @@
+[package]
+name = "unchecked-extrinsic-proof"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+codec = { package = "parity-scale-codec", path = "../parity-scale-codec", default-features = false }
+vstd = "=0.0.0-2026-01-25-0057"
+
+[package.metadata.verus]
+verify = true
