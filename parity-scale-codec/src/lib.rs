@@ -15,6 +15,9 @@
 #![doc = include_str!("../README.md")]
 #![warn(missing_docs)]
 #![cfg_attr(not(feature = "std"), no_std)]
+#![allow(unused_imports)]
+
+use vstd::prelude::*;
 
 #[cfg(not(feature = "std"))]
 #[macro_use]
@@ -133,3 +136,5 @@ pub use parity_scale_codec_derive::MaxEncodedLen;
 
 #[cfg(feature = "bytes")]
 pub use self::codec::decode_from_bytes;
+
+mod verus_proof;
