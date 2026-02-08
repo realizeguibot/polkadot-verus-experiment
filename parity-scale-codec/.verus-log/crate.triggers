@@ -1,0 +1,2774 @@
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 78391,
+        data: [
+            8907019716391370296,
+            2310224254350697,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:250:1: 250:71 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 78384,
+                    data: [
+                        8907019716391370296,
+                        10413667902619496,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/verus_builtin-0.0.0-2026-01-25-0057/src/lib.rs:1846:9: 1846:68 (#2058)",
+                },
+                "Unary(HeightTrigger, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78381, data: [8907019716391370296, 2310915744085448], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:254:40: 254:44 (#0)\" }, typ: TypParam(\"A\"), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78377, data: [8907019716391370296, 2310915744085445], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:254:40: 254:41 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78379, data: [8907019716391370296, 2310924334020039], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:254:42: 254:43 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }]) })",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 78586,
+        data: [
+            8907019716391370296,
+            2312315903424347,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:267:1: 267:82 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 78495,
+                    data: [
+                        8907019716391370296,
+                        10413667902619496,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/verus_builtin-0.0.0-2026-01-25-0057/src/lib.rs:1846:9: 1846:68 (#2070)",
+                },
+                "Unary(HeightTrigger, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78492, data: [8907019716391370296, 2313260796229622], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:272:40: 272:56 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"subrange\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78486, data: [8907019716391370296, 2313260796229607], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:272:40: 272:41 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78488, data: [8907019716391370296, 2313308040869874], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:272:51: 272:52 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78490, data: [8907019716391370296, 2313320925771765], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:272:54: 272:55 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"j\", VirParam)) }]) })",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 78597,
+        data: [
+            8907019716391370296,
+            2314789804587381,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:284:1: 284:44 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 78588,
+                    data: [
+                        8907019716391370296,
+                        2315111927134636,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:286:20: 286:43 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"len\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78587, data: [8907019716391370296, 2315111927134630], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:286:20: 286:37 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"empty\"])), None), [TypParam(\"A\")], []) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 78615,
+        data: [
+            8907019716391370296,
+            2315253661055489,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:289:1: 289:76 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 78605,
+                    data: [
+                        8907019716391370296,
+                        2315713222556215,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:291:20: 291:42 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"len\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78604, data: [8907019716391370296, 2315713222556209], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:291:20: 291:36 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"new\"])), None), [TypParam(\"A\"), SpecFn([Int(Int)], TypParam(\"A\"))], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78600, data: [8907019716391370296, 2315751877261869], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:291:29: 291:32 (#0)\" }, typ: Int(Nat), x: Var(VarIdent(\"len\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78602, data: [8907019716391370296, 2315773352098352], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:291:34: 291:35 (#0)\" }, typ: SpecFn([Int(Int)], TypParam(\"A\")), x: Var(VarIdent(\"f\", VirParam)) }]) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 78649,
+        data: [
+            8907019716391370296,
+            2315859251444376,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:294:1: 294:86 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 78636,
+                    data: [
+                        8907019716391370296,
+                        2316464841833198,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:298:9: 298:39 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78633, data: [8907019716391370296, 2316512086473451], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:298:20: 298:36 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"new\"])), None), [TypParam(\"A\"), SpecFn([Int(Int)], TypParam(\"A\"))], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78629, data: [8907019716391370296, 2316550741179111], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:298:29: 298:32 (#0)\" }, typ: Int(Nat), x: Var(VarIdent(\"len\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78631, data: [8907019716391370296, 2316572216015594], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:298:34: 298:35 (#0)\" }, typ: SpecFn([Int(Int)], TypParam(\"A\")), x: Var(VarIdent(\"f\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78634, data: [8907019716391370296, 2316585100917485], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:298:37: 298:38 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 78670,
+        data: [
+            8907019716391370296,
+            2316649525427000,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:301:1: 301:62 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 78657,
+                    data: [
+                        8907019716391370296,
+                        2317048957385575,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:303:20: 303:35 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"len\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78656, data: [8907019716391370296, 2317048957385569], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:303:20: 303:29 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"push\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78652, data: [8907019716391370296, 2317048957385561], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:303:20: 303:21 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78654, data: [8907019716391370296, 2317079022156640], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:303:27: 303:28 (#0)\" }, typ: TypParam(\"A\"), x: Var(VarIdent(\"a\", VirParam)) }]) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 78699,
+        data: [
+            8907019716391370296,
+            2317199281241031,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:306:1: 306:77 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 78689,
+                    data: [
+                        8907019716391370296,
+                        2317766216924182,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:310:9: 310:32 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78686, data: [8907019716391370296, 2317813461564435], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:310:20: 310:29 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"push\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78682, data: [8907019716391370296, 2317813461564427], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:310:20: 310:21 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78684, data: [8907019716391370296, 2317843526335506], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:310:27: 310:28 (#0)\" }, typ: TypParam(\"A\"), x: Var(VarIdent(\"a\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78687, data: [8907019716391370296, 2317856411237397], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:310:30: 310:31 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 78734,
+        data: [
+            8907019716391370296,
+            2317907950845041,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:313:1: 313:82 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 78721,
+                    data: [
+                        8907019716391370296,
+                        2318513541233860,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:317:9: 317:32 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78718, data: [8907019716391370296, 2318560785874113], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:317:20: 317:29 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"push\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 78714, data: [8907019716391370296, 2318560785874105], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:317:20: 317:21 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78716, data: [8907019716391370296, 2318590850645184], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:317:27: 317:28 (#0)\" }, typ: TypParam(\"A\"), x: Var(VarIdent(\"a\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 78719, data: [8907019716391370296, 2318603735547075], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:317:30: 317:31 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79033,
+        data: [
+            8907019716391370296,
+            2326059798774717,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:383:17: 383:68 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79025,
+                    data: [
+                        8907019716391370296,
+                        2326218712564660,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:383:54: 383:59 (#0)",
+                },
+                "vstd::seq::Seq::index(A&, s1!, i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79030,
+                    data: [
+                        8907019716391370296,
+                        2326257367270333,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:383:63: 383:68 (#0)",
+                },
+                "vstd::seq::Seq::index(A&, s2!, i$)",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79033,
+        data: [
+            8907019716391370296,
+            2326059798774717,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:383:17: 383:68 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79025,
+                    data: [
+                        8907019716391370296,
+                        2326218712564660,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:383:54: 383:59 (#0)",
+                },
+                "vstd::seq::Seq::index(A&, s1!, i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79030,
+                    data: [
+                        8907019716391370296,
+                        2326257367270333,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:383:63: 383:68 (#0)",
+                },
+                "vstd::seq::Seq::index(A&, s2!, i$)",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79043,
+        data: [
+            8907019716391370296,
+            2325316769432354,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:379:1: 379:70 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79004,
+                    data: [
+                        8907019716391370296,
+                        2325703316489037,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:381:9: 381:31 (#0)",
+                },
+                "BinaryOpr(ExtEq(false, Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], [])), SpannedTyped { span: Span { raw_span: \"ANY\", id: 79000, data: [8907019716391370296, 2325754856096581], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:381:21: 381:23 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s1\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79002, data: [8907019716391370296, 2325784920867660], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:381:28: 381:30 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s2\", VirParam)) })",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79079,
+        data: [
+            8907019716391370296,
+            2327112065762484,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:391:17: 391:70 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79071,
+                    data: [
+                        8907019716391370296,
+                        2327270979552425,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:391:54: 391:59 (#0)",
+                },
+                "vstd::seq::Seq::index(A&, s1!, i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79076,
+                    data: [
+                        8907019716391370296,
+                        2327318224192692,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:391:65: 391:70 (#0)",
+                },
+                "vstd::seq::Seq::index(A&, s2!, i$)",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79079,
+        data: [
+            8907019716391370296,
+            2327112065762484,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:391:17: 391:70 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79071,
+                    data: [
+                        8907019716391370296,
+                        2327270979552425,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:391:54: 391:59 (#0)",
+                },
+                "vstd::seq::Seq::index(A&, s1!, i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79076,
+                    data: [
+                        8907019716391370296,
+                        2327318224192692,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:391:65: 391:70 (#0)",
+                },
+                "vstd::seq::Seq::index(A&, s2!, i$)",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79089,
+        data: [
+            8907019716391370296,
+            2326343266616342,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:387:1: 387:75 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79050,
+                    data: [
+                        8907019716391370296,
+                        2326751288509506,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:389:9: 389:32 (#0)",
+                },
+                "BinaryOpr(ExtEq(true, Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], [])), SpannedTyped { span: Span { raw_span: \"ANY\", id: 79046, data: [8907019716391370296, 2326802828117049], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:389:21: 389:23 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s1\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79048, data: [8907019716391370296, 2326837187855425], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:389:29: 389:31 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s2\", VirParam)) })",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79127,
+        data: [
+            8907019716391370296,
+            2327404123538702,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:395:1: 395:76 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79114,
+                    data: [
+                        8907019716391370296,
+                        2328056958567793,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:399:20: 399:42 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"len\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79113, data: [8907019716391370296, 2328056958567787], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:399:20: 399:36 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"subrange\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79107, data: [8907019716391370296, 2328056958567772], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:399:20: 399:21 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79109, data: [8907019716391370296, 2328104203208039], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:399:31: 399:32 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"j\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79111, data: [8907019716391370296, 2328117088109930], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:399:34: 399:35 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"k\", VirParam)) }]) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79182,
+        data: [
+            8907019716391370296,
+            2328211577390548,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:402:1: 402:86 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79166,
+                    data: [
+                        8907019716391370296,
+                        2328963196667468,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:407:9: 407:39 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79163, data: [8907019716391370296, 2329010441307721], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:407:20: 407:36 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"subrange\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79157, data: [8907019716391370296, 2329010441307706], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:407:20: 407:21 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79159, data: [8907019716391370296, 2329057685947973], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:407:31: 407:32 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"j\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79161, data: [8907019716391370296, 2329070570849864], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:407:34: 407:35 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"k\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79164, data: [8907019716391370296, 2329083455751755], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:407:37: 407:38 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79325,
+        data: [
+            8907019716391370296,
+            2330973241362534,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:423:1: 423:101 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79305,
+                    data: [
+                        8907019716391370296,
+                        2332046983186715,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:9: 430:40 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79302, data: [8907019716391370296, 2332094227826968], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:20: 430:37 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"subrange\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79296, data: [8907019716391370296, 2332094227826952], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:20: 430:21 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79298, data: [8907019716391370296, 2332141472467219], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:31: 430:32 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"j\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79300, data: [8907019716391370296, 2332154357369111], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:34: 430:36 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"k1\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79303, data: [8907019716391370296, 2332171537238298], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:38: 430:39 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79312,
+                    data: [
+                        8907019716391370296,
+                        2332197307042109,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:44: 430:74 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"subrange\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79306, data: [8907019716391370296, 2332248846649644], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:56: 430:57 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79308, data: [8907019716391370296, 2332296091289911], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:67: 430:68 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"j\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79310, data: [8907019716391370296, 2332308976191803], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:430:70: 430:72 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"k2\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79348,
+        data: [
+            8907019716391370296,
+            2332562379262391,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:436:1: 436:68 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79333,
+                    data: [
+                        8907019716391370296,
+                        2332987581024743,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:438:20: 438:36 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"len\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79332, data: [8907019716391370296, 2332987581024737], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:438:20: 438:30 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"add\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79328, data: [8907019716391370296, 2332987581024729], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:438:20: 438:22 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s1\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79330, data: [8907019716391370296, 2333017645795808], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:438:27: 438:29 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s2\", VirParam)) }]) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79383,
+        data: [
+            8907019716391370296,
+            2333176559585873,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:441:1: 441:79 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79370,
+                    data: [
+                        8907019716391370296,
+                        2333773560040102,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:445:9: 445:33 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79367, data: [8907019716391370296, 2333820804680355], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:445:20: 445:30 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"add\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79363, data: [8907019716391370296, 2333820804680347], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:445:20: 445:22 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s1\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79365, data: [8907019716391370296, 2333850869451426], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:445:27: 445:29 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s2\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79368, data: [8907019716391370296, 2333868049320613], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:445:31: 445:32 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 79428,
+        data: [
+            8907019716391370296,
+            2333936768797442,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:448:1: 448:79 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 79411,
+                    data: [
+                        8907019716391370296,
+                        2334611078663017,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:452:9: 452:33 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79408, data: [8907019716391370296, 2334658323303270], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:452:20: 452:30 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"add\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 79404, data: [8907019716391370296, 2334658323303262], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:452:20: 452:22 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s1\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79406, data: [8907019716391370296, 2334688388074341], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:452:27: 452:29 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"s2\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 79409, data: [8907019716391370296, 2334705567943528], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq.rs:452:31: 452:32 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 80598,
+        data: [
+            8907019716391370296,
+            2392606022074439,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:314:5: 314:60 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 80580,
+                    data: [
+                        8907019716391370296,
+                        2393198727561377,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:318:24: 318:31 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"add\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 80576, data: [8907019716391370296, 2393203022528668], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:318:25: 318:26 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"a\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 80578, data: [8907019716391370296, 2393220202397856], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:318:29: 318:30 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"b\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 80630,
+        data: [
+            8907019716391370296,
+            2393456425599246,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:323:5: 323:61 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 80612,
+                    data: [
+                        8907019716391370296,
+                        2394053426053480,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:327:24: 327:31 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"add\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 80608, data: [8907019716391370296, 2394057721020771], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:327:25: 327:26 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"a\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 80610, data: [8907019716391370296, 2394074900889959], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:327:29: 327:30 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"b\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 80674,
+        data: [
+            8907019716391370296,
+            2394311124091367,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:332:5: 332:79 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 80641,
+                    data: [
+                        8907019716391370296,
+                        2394800750363168,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:334:24: 334:41 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"push\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 80638, data: [8907019716391370296, 2394800750363158], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:334:24: 334:31 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"add\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 80634, data: [8907019716391370296, 2394805045330449], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:334:25: 334:26 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"a\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 80636, data: [8907019716391370296, 2394822225199637], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:334:29: 334:30 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Var(VarIdent(\"b\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 80639, data: [8907019716391370296, 2394856584938015], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/seq_lib.rs:334:37: 334:40 (#0)\" }, typ: TypParam(\"A\"), x: Var(VarIdent(\"elt\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 107224,
+        data: [
+            8907019716391370296,
+            3387049865119926,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:75:1: 75:54 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 107212,
+                    data: [
+                        8907019716391370296,
+                        3387414937340139,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:77:20: 77:41 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"slice\" :: \"spec_slice_len\"])), None), [TypParam(\"T\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 107210, data: [8907019716391370296, 3387479361849578], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:77:35: 77:40 (#0)\" }, typ: Primitive(Slice, [TypParam(\"T\")]), x: Var(VarIdent(\"slice\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 107418,
+        data: [
+            8907019716391370296,
+            3395339152003146,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:142:62: 143:49 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 107410,
+                    data: [
+                        8907019716391370296,
+                        3395549605400641,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:143:35: 143:40 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, a1!), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 107415,
+                    data: [
+                        8907019716391370296,
+                        3395588260106314,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:143:44: 143:49 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, a2!), i$)",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 107418,
+        data: [
+            8907019716391370296,
+            3395339152003146,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:142:62: 143:49 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 107410,
+                    data: [
+                        8907019716391370296,
+                        3395549605400641,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:143:35: 143:40 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, a1!), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 107415,
+                    data: [
+                        8907019716391370296,
+                        3395588260106314,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:143:44: 143:49 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, a2!), i$)",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 107427,
+        data: [
+            8907019716391370296,
+            3394733561614273,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:140:1: 140:68 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 107389,
+                    data: [
+                        8907019716391370296,
+                        3395111518736364,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:142:9: 142:31 (#0)",
+                },
+                "BinaryOpr(ExtEq(false, Decorate(Ref, None, Primitive(Slice, [TypParam(\"T\")]))), SpannedTyped { span: Span { raw_span: \"ANY\", id: 107385, data: [8907019716391370296, 3395163058343908], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:142:21: 142:23 (#0)\" }, typ: Decorate(Ref, None, Primitive(Slice, [TypParam(\"T\")])), x: Var(VarIdent(\"a1\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 107387, data: [8907019716391370296, 3395193123114987], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:142:28: 142:30 (#0)\" }, typ: Primitive(Slice, [TypParam(\"T\")]), x: Var(VarIdent(\"a2\", VirParam)) })",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 107540,
+        data: [
+            8907019716391370296,
+            3399024233943980,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:165:1: 165:72 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 107524,
+                    data: [
+                        8907019716391370296,
+                        3399616939430929,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:167:55: 167:89 (#0)",
+                },
+                "UnaryOpr(HasResolved(Primitive(Slice, [TypParam(\"T\")])), SpannedTyped { span: Span { raw_span: \"ANY\", id: 107522, data: [8907019716391370296, 3399737198515216], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:167:83: 167:88 (#0)\" }, typ: Primitive(Slice, [TypParam(\"T\")]), x: Var(VarIdent(\"slice\", VirParam)) })",
+            ),
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 107530,
+                    data: [
+                        8907019716391370296,
+                        3399891817337923,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:168:30: 168:50 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"T\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 107527, data: [8907019716391370296, 3399939061978176], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:168:41: 168:47 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"T\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"slice\" :: \"impl&%0\" :: \"view\"])), [TypParam(\"T\")]))), [Primitive(Slice, [TypParam(\"T\")])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 107525, data: [8907019716391370296, 3399939061978175], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:168:41: 168:46 (#0)\" }, typ: Primitive(Slice, [TypParam(\"T\")]), x: Var(VarIdent(\"slice\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 107528, data: [8907019716391370296, 3399969126749250], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:168:48: 168:49 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 26910,
+        data: [
+            8907019716391370296,
+            708742618449075,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:10:24: 10:50 (#0)",
+    },
+    triggers: [],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 27092,
+        data: [
+            8907019716391370296,
+            716001113181053,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:82:1: 82:75 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 27083,
+                    data: [
+                        8907019716391370296,
+                        716409135074216,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:84:9: 84:31 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"len\"])), None), [TypParam(\"T\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 27082, data: [8907019716391370296, 716460674681761], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:84:21: 84:24 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"T\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"array\" :: \"impl&%0\" :: \"view\"])), [TypParam(\"T\"), TypParam(\"N\")]))), [Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 27080, data: [8907019716391370296, 716460674681760], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:84:21: 84:23 (#0)\" }, typ: Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")]), x: Var(VarIdent(\"ar\", VirParam)) }]) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 27020,
+        data: [
+            8907019716391370296,
+            712616678951021,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:50:1: 50:79 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 27000,
+                    data: [
+                        8907019716391370296,
+                        713230859274431,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:54:20: 54:37 (#0)",
+                },
+                "Binary(Index(Array, Allow), SpannedTyped { span: Span { raw_span: \"ANY\", id: 26996, data: [8907019716391370296, 713282398881979], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:54:32: 54:33 (#0)\" }, typ: Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")]), x: Var(VarIdent(\"a\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 26998, data: [8907019716391370296, 713295283783870], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:54:35: 54:36 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) })",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 27223,
+        data: [
+            8907019716391370296,
+            724307579933423,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:136:37: 136:83 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 27215,
+                    data: [
+                        8907019716391370296,
+                        724440723919589,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:136:68: 136:73 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, a1!), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 27220,
+                    data: [
+                        8907019716391370296,
+                        724479378625262,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:136:77: 136:82 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, a2!), i$)",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 27223,
+        data: [
+            8907019716391370296,
+            724307579933423,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:136:37: 136:83 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 27215,
+                    data: [
+                        8907019716391370296,
+                        724440723919589,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:136:68: 136:73 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, a1!), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 27220,
+                    data: [
+                        8907019716391370296,
+                        724479378625262,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:136:77: 136:82 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, a2!), i$)",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 27231,
+        data: [
+            8907019716391370296,
+            723723464381072,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:134:1: 134:88 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 27203,
+                    data: [
+                        8907019716391370296,
+                        724187320849083,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:136:9: 136:31 (#0)",
+                },
+                "BinaryOpr(ExtEq(false, Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")])), SpannedTyped { span: Span { raw_span: \"ANY\", id: 27199, data: [8907019716391370296, 724238860456627], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:136:21: 136:23 (#0)\" }, typ: Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")]), x: Var(VarIdent(\"a1\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 27201, data: [8907019716391370296, 724268925227706], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:136:28: 136:30 (#0)\" }, typ: Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")]), x: Var(VarIdent(\"a2\", VirParam)) })",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 27302,
+        data: [
+            8907019716391370296,
+            726343394432244,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:148:1: 148:90 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 27286,
+                    data: [
+                        8907019716391370296,
+                        726927509984576,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:150:35: 150:64 (#0)",
+                },
+                "UnaryOpr(HasResolved(Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")])), SpannedTyped { span: Span { raw_span: \"ANY\", id: 27284, data: [8907019716391370296, 727026294232383], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:150:58: 150:63 (#0)\" }, typ: Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")]), x: Var(VarIdent(\"array\", VirParam)) })",
+            ),
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 27292,
+                    data: [
+                        8907019716391370296,
+                        727185208022387,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:151:13: 151:33 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"T\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 27289, data: [8907019716391370296, 727232452662640], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:151:24: 151:30 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"T\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"array\" :: \"impl&%0\" :: \"view\"])), [TypParam(\"T\"), TypParam(\"N\")]))), [Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 27287, data: [8907019716391370296, 727232452662639], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:151:24: 151:29 (#0)\" }, typ: Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")]), x: Var(VarIdent(\"array\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 27290, data: [8907019716391370296, 727262517433714], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:151:31: 151:32 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 109545,
+        data: [
+            8907019716391370296,
+            3517054230232826,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/string.rs:198:1: 198:61 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 109534,
+                    data: [
+                        8907019716391370296,
+                        3517449367224098,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/string.rs:200:20: 200:28 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"len\"])), None), [Int(Char)], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 109533, data: [8907019716391370296, 3517449367224092], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/string.rs:200:20: 200:22 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [Int(Char)], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"string\" :: \"impl&%0\" :: \"view\"])), []))), [Primitive(StrSlice, [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 109531, data: [8907019716391370296, 3517449367224091], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/string.rs:200:20: 200:21 (#0)\" }, typ: Primitive(StrSlice, []), x: Var(VarIdent(\"s\", VirParam)) }]) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 109566,
+        data: [
+            8907019716391370296,
+            3517586806177667,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/string.rs:203:1: 203:74 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 109553,
+                    data: [
+                        8907019716391370296,
+                        3518037777743790,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/string.rs:205:20: 205:31 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [Int(Char)], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 109550, data: [8907019716391370296, 3518037777743781], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/string.rs:205:20: 205:22 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [Int(Char)], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"string\" :: \"impl&%0\" :: \"view\"])), []))), [Primitive(StrSlice, [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 109548, data: [8907019716391370296, 3518037777743780], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/string.rs:205:20: 205:21 (#0)\" }, typ: Primitive(StrSlice, []), x: Var(VarIdent(\"s\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 109551, data: [8907019716391370296, 3518076432449453], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/string.rs:205:29: 205:30 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 68502,
+        data: [
+            8907019716391370296,
+            2068615164025245,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/raw_ptr.rs:327:1: 327:57 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 68491,
+                    data: [
+                        8907019716391370296,
+                        2069053250689496,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/raw_ptr.rs:329:34: 329:47 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"raw_ptr\" :: \"impl&%2\" :: \"view\"])), [TypParam(\"T\")]))), [Primitive(Ptr, [TypParam(\"T\")])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 68489, data: [8907019716391370296, 2069100495329751], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/raw_ptr.rs:329:45: 329:46 (#0)\" }, typ: Primitive(Ptr, [TypParam(\"T\")]), x: Var(VarIdent(\"a\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 68547,
+        data: [
+            8907019716391370296,
+            2071419777670184,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/raw_ptr.rs:341:1: 341:55 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 68518,
+                    data: [
+                        8907019716391370296,
+                        2071875044203627,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/raw_ptr.rs:343:40: 343:55 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"raw_ptr\" :: \"impl&%2\" :: \"view\"])), [TypParam(\"T\")]))), [Primitive(Ptr, [TypParam(\"T\")])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 68516, data: [8907019716391370296, 2071926583811177], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/raw_ptr.rs:343:52: 343:53 (#0)\" }, typ: Primitive(Ptr, [TypParam(\"T\")]), x: Var(VarIdent(\"a\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 58569,
+        data: [
+            8907019716391370296,
+            1478018505982061,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:104:1: 104:46 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58492,
+                    data: [
+                        8907019716391370296,
+                        1478349218463902,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:106:20: 106:37 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Bool], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58494,
+                    data: [
+                        8907019716391370296,
+                        1478512427221188,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:107:20: 107:37 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(Char)], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58496,
+                    data: [
+                        8907019716391370296,
+                        1478675635978472,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:108:20: 108:35 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(U(8))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58498,
+                    data: [
+                        8907019716391370296,
+                        1478830254801164,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:109:20: 109:35 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(I(8))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58500,
+                    data: [
+                        8907019716391370296,
+                        1478984873623857,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:110:20: 110:36 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(U(16))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58502,
+                    data: [
+                        8907019716391370296,
+                        1479143787413846,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:111:20: 111:36 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(I(16))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58504,
+                    data: [
+                        8907019716391370296,
+                        1479302701203835,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:112:20: 112:36 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(U(32))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58506,
+                    data: [
+                        8907019716391370296,
+                        1479461614993824,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:113:20: 113:36 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(I(32))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58508,
+                    data: [
+                        8907019716391370296,
+                        1479620528783813,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:114:20: 114:36 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(U(64))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58510,
+                    data: [
+                        8907019716391370296,
+                        1479779442573802,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:115:20: 115:36 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(I(64))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58512,
+                    data: [
+                        8907019716391370296,
+                        1479938356363793,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:116:20: 116:38 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(USize)], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58514,
+                    data: [
+                        8907019716391370296,
+                        1480105860088376,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:117:20: 117:38 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Int(ISize)], [])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 58588,
+        data: [
+            8907019716391370296,
+            1482553991447693,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:130:1: 130:46 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58570,
+                    data: [
+                        8907019716391370296,
+                        1482884703929532,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:132:20: 132:35 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Datatype(Tuple(0), [], [])], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58572,
+                    data: [
+                        8907019716391370296,
+                        1483039322752225,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:133:20: 133:36 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"align_of\"])), None), [Datatype(Tuple(0), [], [])], [])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 58621,
+        data: [
+            8907019716391370296,
+            1484284863268408,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:139:1: 139:70 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58589,
+                    data: [
+                        8907019716391370296,
+                        1484718654965355,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:141:20: 141:39 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Primitive(Ptr, [TypParam(\"T\")])], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58591,
+                    data: [
+                        8907019716391370296,
+                        1484890453657237,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:142:20: 142:41 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Decorate(ConstPtr, None, Primitive(Ptr, [TypParam(\"T\")]))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58593,
+                    data: [
+                        8907019716391370296,
+                        1485070842283705,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:143:20: 143:35 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Decorate(Ref, None, TypParam(\"T\"))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58595,
+                    data: [
+                        8907019716391370296,
+                        1485225461106402,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:144:20: 144:40 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"align_of\"])), None), [Primitive(Ptr, [TypParam(\"T\")])], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58597,
+                    data: [
+                        8907019716391370296,
+                        1485401554765581,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:145:20: 145:42 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"align_of\"])), None), [Decorate(ConstPtr, None, Primitive(Ptr, [TypParam(\"T\")]))], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58599,
+                    data: [
+                        8907019716391370296,
+                        1485586238359346,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:146:20: 146:36 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"align_of\"])), None), [Decorate(Ref, None, TypParam(\"T\"))], [])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 58640,
+        data: [
+            8907019716391370296,
+            1487029347371206,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:153:1: 153:85 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58622,
+                    data: [
+                        8907019716391370296,
+                        1487527563577593,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:155:20: 155:39 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"size_of\"])), None), [Primitive(Ptr, [TypParam(\"T\")])], [])",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 58624,
+                    data: [
+                        8907019716391370296,
+                        1487699362269474,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/layout.rs:156:20: 156:40 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"layout\" :: \"align_of\"])), None), [Primitive(Ptr, [TypParam(\"T\")])], [])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 154893,
+        data: [
+            8907019716391370296,
+            5024600636381726,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:84:1: 84:70 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 154880,
+                    data: [
+                        8907019716391370296,
+                        5025034428078669,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:86:20: 86:35 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"std_specs\" :: \"vec\" :: \"spec_vec_len\"])), None), [TypParam(\"T\"), TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 154878, data: [8907019716391370296, 5025090262653516], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:86:33: 86:34 (#0)\" }, typ: Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], []), x: Var(VarIdent(\"v\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 155669,
+        data: [
+            8907019716391370296,
+            5051783484404440,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:311:1: 311:71 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155661,
+                    data: [
+                        8907019716391370296,
+                        10413667902619496,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/verus_builtin-0.0.0-2026-01-25-0057/src/lib.rs:1846:9: 1846:68 (#3150)",
+                },
+                "Unary(HeightTrigger, SpannedTyped { span: Span { raw_span: \"ANY\", id: 155658, data: [8907019716391370296, 5052474974139191], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:315:40: 315:44 (#0)\" }, typ: TypParam(\"A\"), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 154758, data: [8907019716391370296, 5016083716231717], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:31:9: 31:20 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"A\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"view\" :: \"impl&%8\" :: \"view\"])), [TypParam(\"A\"), Primitive(Global, [])]))), [Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"A\"), Primitive(Global, [])], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 155654, data: [8907019716391370296, 5052474974139188], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:315:40: 315:41 (#0)\" }, typ: Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"A\"), Primitive(Global, [])], [TraitImplPath(Path(Some(\"alloc\"), [\"alloc\" :: \"impl&%1\"]))]), x: Var(VarIdent(\"v\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 155656, data: [8907019716391370296, 5052483564073782], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:315:42: 315:43 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }]) })",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 122947,
+        data: [
+            8907019716391370296,
+            4231543514925226,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/view.rs:116:27: 116:52 (#0)",
+    },
+    triggers: [],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 155528,
+        data: [
+            8907019716391370296,
+            5047514286911268,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:279:1: 282:2 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155507,
+                    data: [
+                        8907019716391370296,
+                        5048154237038430,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:284:20: 284:45 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"std_specs\" :: \"vec\" :: \"vec_clone_trigger\"])), None), [TypParam(\"T\"), TypParam(\"A\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 155503, data: [8907019716391370296, 5048231546449753], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:284:38: 284:40 (#0)\" }, typ: Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], []), x: Var(VarIdent(\"v1\", VirParam)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 155505, data: [8907019716391370296, 5048248726318941], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:284:42: 284:44 (#0)\" }, typ: Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], []), x: Var(VarIdent(\"v2\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 156298,
+        data: [
+            8907019716391370296,
+            5082329291820703,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:529:1: 529:70 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 156282,
+                    data: [
+                        8907019716391370296,
+                        5082861867765489,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:531:43: 531:70 (#0)",
+                },
+                "UnaryOpr(HasResolved(Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), Primitive(Global, [])], [TraitImplPath(Path(Some(\"alloc\"), [\"alloc\" :: \"impl&%1\"]))])), SpannedTyped { span: Span { raw_span: \"ANY\", id: 156280, data: [8907019716391370296, 5082960652013296], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:531:66: 531:69 (#0)\" }, typ: Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), Primitive(Global, [])], [TraitImplPath(Path(Some(\"alloc\"), [\"alloc\" :: \"impl&%1\"]))]), x: Var(VarIdent(\"vec\", VirParam)) })",
+            ),
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 156288,
+                    data: [
+                        8907019716391370296,
+                        5083110975868706,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:532:13: 532:31 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"T\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 156285, data: [8907019716391370296, 5083158220508959], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:532:24: 532:28 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"T\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"view\" :: \"impl&%8\" :: \"view\"])), [TypParam(\"T\"), Primitive(Global, [])]))), [Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), Primitive(Global, [])], [TraitImplPath(Path(Some(\"alloc\"), [\"alloc\" :: \"impl&%1\"]))])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 156283, data: [8907019716391370296, 5083158220508958], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:532:24: 532:27 (#0)\" }, typ: Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), Primitive(Global, [])], [TraitImplPath(Path(Some(\"alloc\"), [\"alloc\" :: \"impl&%1\"]))]), x: Var(VarIdent(\"vec\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 156286, data: [8907019716391370296, 5083179695345441], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:532:29: 532:30 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirParam)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 129877,
+        data: [
+            8907019716391370296,
+            4391943363598987,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:10:5: 10:29 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129877,
+                    data: [
+                        8907019716391370296,
+                        4391943363598987,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:10:5: 10:29 (#0)",
+                },
+                "Call(InternalFun(ClosureReq), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [TypParam(\"Self%\")], None), Datatype(Tuple(1), [Decorate(Ref, None, TypParam(\"Self%\"))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 129877, data: [8907019716391370296, 4391943363598987], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:10:5: 10:29 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [TypParam(\"Self%\")], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129877, data: [8907019716391370296, 4391943363598987], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:10:5: 10:29 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, TypParam(\"Self%\"))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 142752,
+        data: [
+            8907019716391370296,
+            4796804160883400,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#2998)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 142752,
+                    data: [
+                        8907019716391370296,
+                        4796804160883400,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#2998)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(8))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(U(8)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 142752, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#2998)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(8))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 142752, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#2998)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(U(8)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 142752, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#2998)\" }, typ: Int(U(8)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 143244,
+        data: [
+            8907019716391370296,
+            4808542306509443,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#2998)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 143244,
+                    data: [
+                        8907019716391370296,
+                        4808542306509443,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#2998)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(8))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(I(8)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 143244, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#2998)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(8))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 143244, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#2998)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(I(8)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 143244, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#2998)\" }, typ: Int(I(8)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 143788,
+        data: [
+            8907019716391370296,
+            4796804160883400,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3004)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 143788,
+                    data: [
+                        8907019716391370296,
+                        4796804160883400,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3004)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(16))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(U(16)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 143788, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3004)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(16))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 143788, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3004)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(U(16)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 143788, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3004)\" }, typ: Int(U(16)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 144280,
+        data: [
+            8907019716391370296,
+            4808542306509443,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3004)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 144280,
+                    data: [
+                        8907019716391370296,
+                        4808542306509443,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3004)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(16))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(I(16)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 144280, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3004)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(16))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 144280, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3004)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(I(16)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 144280, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3004)\" }, typ: Int(I(16)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 144824,
+        data: [
+            8907019716391370296,
+            4796804160883400,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3010)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 144824,
+                    data: [
+                        8907019716391370296,
+                        4796804160883400,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3010)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(32))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(U(32)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 144824, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3010)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(32))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 144824, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3010)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(U(32)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 144824, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3010)\" }, typ: Int(U(32)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 145316,
+        data: [
+            8907019716391370296,
+            4808542306509443,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3010)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 145316,
+                    data: [
+                        8907019716391370296,
+                        4808542306509443,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3010)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(32))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(I(32)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 145316, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3010)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(32))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 145316, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3010)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(I(32)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 145316, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3010)\" }, typ: Int(I(32)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 145860,
+        data: [
+            8907019716391370296,
+            4796804160883400,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3016)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 145860,
+                    data: [
+                        8907019716391370296,
+                        4796804160883400,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3016)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(64))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(U(64)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 145860, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3016)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(64))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 145860, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3016)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(U(64)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 145860, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3016)\" }, typ: Int(U(64)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 146352,
+        data: [
+            8907019716391370296,
+            4808542306509443,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3016)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 146352,
+                    data: [
+                        8907019716391370296,
+                        4808542306509443,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3016)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(64))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(I(64)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 146352, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3016)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(64))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 146352, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3016)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(I(64)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 146352, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3016)\" }, typ: Int(I(64)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 146896,
+        data: [
+            8907019716391370296,
+            4796804160883400,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3022)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 146896,
+                    data: [
+                        8907019716391370296,
+                        4796804160883400,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3022)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(128))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(U(128)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 146896, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3022)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(U(128))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 146896, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3022)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(U(128)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 146896, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3022)\" }, typ: Int(U(128)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 147388,
+        data: [
+            8907019716391370296,
+            4808542306509443,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3022)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 147388,
+                    data: [
+                        8907019716391370296,
+                        4808542306509443,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3022)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(128))], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(I(128)))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 147388, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3022)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(I(128))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 147388, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3022)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(I(128)))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 147388, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3022)\" }, typ: Int(I(128)), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 147932,
+        data: [
+            8907019716391370296,
+            4796804160883400,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3028)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 147932,
+                    data: [
+                        8907019716391370296,
+                        4796804160883400,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3028)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(USize)], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(USize))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 147932, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3028)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(USize)], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 147932, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3028)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(USize))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 147932, data: [8907019716391370296, 4796804160883400], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:17:13: 17:42 (#3028)\" }, typ: Int(USize), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 148464,
+        data: [
+            8907019716391370296,
+            4808542306509443,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3028)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 148464,
+                    data: [
+                        8907019716391370296,
+                        4808542306509443,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3028)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(ISize)], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(ISize))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 148464, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3028)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(ISize)], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 148464, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3028)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(ISize))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 148464, data: [8907019716391370296, 4808542306509443], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/num.rs:89:77: 185:16 (#3028)\" }, typ: Int(ISize), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 129896,
+        data: [
+            8907019716391370296,
+            4392600493595478,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:21:1: 21:75 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129896,
+                    data: [
+                        8907019716391370296,
+                        4392600493595478,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:21:1: 21:75 (#0)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Bool], None), Datatype(Tuple(1), [Decorate(Ref, None, Bool)], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 129896, data: [8907019716391370296, 4392600493595478], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:21:1: 21:75 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Bool], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129896, data: [8907019716391370296, 4392600493595478], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:21:1: 21:75 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Bool)], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129896, data: [8907019716391370296, 4392600493595478], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:21:1: 21:75 (#0)\" }, typ: Bool, x: Var(VarIdent(\"%return\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 129907,
+        data: [
+            8907019716391370296,
+            4393038580259772,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:26:1: 26:75 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129907,
+                    data: [
+                        8907019716391370296,
+                        4393038580259772,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:26:1: 26:75 (#0)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(Char)], None), Datatype(Tuple(1), [Decorate(Ref, None, Int(Char))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 129907, data: [8907019716391370296, 4393038580259772], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:26:1: 26:75 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Int(Char)], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129907, data: [8907019716391370296, 4393038580259772], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:26:1: 26:75 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Int(Char))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129907, data: [8907019716391370296, 4393038580259772], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:26:1: 26:75 (#0)\" }, typ: Int(Char), x: Var(VarIdent(\"%return\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 129921,
+        data: [
+            8907019716391370296,
+            4393626990779513,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:32:1: 34:17 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129921,
+                    data: [
+                        8907019716391370296,
+                        4393626990779513,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:32:1: 34:17 (#0)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Decorate(Ref, None, TypParam(\"T\"))], None), Datatype(Tuple(1), [Decorate(Ref, None, Decorate(Ref, None, TypParam(\"T\")))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 129921, data: [8907019716391370296, 4393626990779513], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:32:1: 34:17 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Decorate(Ref, None, TypParam(\"T\"))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129921, data: [8907019716391370296, 4393626990779513], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:32:1: 34:17 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Decorate(Ref, None, TypParam(\"T\")))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129921, data: [8907019716391370296, 4393626990779513], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:32:1: 34:17 (#0)\" }, typ: Decorate(Ref, None, TypParam(\"T\")), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 129945,
+        data: [
+            8907019716391370296,
+            4394885416197477,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:42:9: 42:78 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129936,
+                    data: [
+                        8907019716391370296,
+                        4395117344431451,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:42:63: 42:68 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, a!), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129942,
+                    data: [
+                        8907019716391370296,
+                        4395147409202532,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:42:70: 42:77 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, res!), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129943,
+                    data: [
+                        8907019716391370296,
+                        4395065804823909,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:42:51: 42:78 (#0)",
+                },
+                "vstd::pervasive::cloned(T&, vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, a!), i$), vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, res!), i$))",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 129945,
+        data: [
+            8907019716391370296,
+            4394885416197477,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:42:9: 42:78 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129936,
+                    data: [
+                        8907019716391370296,
+                        4395117344431451,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:42:63: 42:68 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, a$), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129942,
+                    data: [
+                        8907019716391370296,
+                        4395147409202532,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:42:70: 42:77 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, res$), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129943,
+                    data: [
+                        8907019716391370296,
+                        4395065804823909,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:42:51: 42:78 (#0)",
+                },
+                "vstd::pervasive::cloned(T&, vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, a$), i$), vstd::seq::Seq::index(T&, vstd::view::View::view(T&, N&, res$), i$))",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 129967,
+        data: [
+            8907019716391370296,
+            4394318480514314,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:39:1: 40:11 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129967,
+                    data: [
+                        8907019716391370296,
+                        4394318480514314,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:39:1: 40:11 (#0)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")])], None), Datatype(Tuple(1), [Decorate(Ref, None, Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")]))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 129967, data: [8907019716391370296, 4394318480514314], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:39:1: 40:11 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")])], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129967, data: [8907019716391370296, 4394318480514314], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:39:1: 40:11 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")]))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129967, data: [8907019716391370296, 4394318480514314], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:39:1: 40:11 (#0)\" }, typ: Primitive(Array, [TypParam(\"T\"), TypParam(\"N\")]), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 129981,
+        data: [
+            8907019716391370296,
+            4396285575536338,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:56:1: 58:2 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129981,
+                    data: [
+                        8907019716391370296,
+                        4396285575536338,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:56:1: 58:2 (#0)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Decorate(Tracked, None, TypParam(\"T\"))], None), Datatype(Tuple(1), [Decorate(Ref, None, Decorate(Tracked, None, TypParam(\"T\")))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 129981, data: [8907019716391370296, 4396285575536338], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:56:1: 58:2 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Decorate(Tracked, None, TypParam(\"T\"))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129981, data: [8907019716391370296, 4396285575536338], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:56:1: 58:2 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Decorate(Tracked, None, TypParam(\"T\")))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129981, data: [8907019716391370296, 4396285575536338], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:56:1: 58:2 (#0)\" }, typ: Decorate(Tracked, None, TypParam(\"T\")), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 129995,
+        data: [
+            8907019716391370296,
+            4396899755859790,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:63:1: 63:90 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 129995,
+                    data: [
+                        8907019716391370296,
+                        4396899755859790,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:63:1: 63:90 (#0)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Decorate(Ghost, None, TypParam(\"T\"))], None), Datatype(Tuple(1), [Decorate(Ref, None, Decorate(Ghost, None, TypParam(\"T\")))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 129995, data: [8907019716391370296, 4396899755859790], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:63:1: 63:90 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Decorate(Ghost, None, TypParam(\"T\"))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129995, data: [8907019716391370296, 4396899755859790], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:63:1: 63:90 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Decorate(Ghost, None, TypParam(\"T\")))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 129995, data: [8907019716391370296, 4396899755859790], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/clone.rs:63:1: 63:90 (#0)\" }, typ: Decorate(Ghost, None, TypParam(\"T\")), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 150214,
+        data: [
+            8907019716391370296,
+            4894579091399684,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/option.rs:272:1: 274:2 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 150214,
+                    data: [
+                        8907019716391370296,
+                        4894579091399684,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/option.rs:272:1: 274:2 (#0)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Datatype(Path(Path(Some(\"core\"), [\"option\" :: \"Option\"])), [TypParam(\"T\")], [])], None), Datatype(Tuple(1), [Decorate(Ref, None, Datatype(Path(Path(Some(\"core\"), [\"option\" :: \"Option\"])), [TypParam(\"T\")], []))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 150214, data: [8907019716391370296, 4894579091399684], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/option.rs:272:1: 274:2 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Datatype(Path(Path(Some(\"core\"), [\"option\" :: \"Option\"])), [TypParam(\"T\")], [])], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 150214, data: [8907019716391370296, 4894579091399684], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/option.rs:272:1: 274:2 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Datatype(Path(Path(Some(\"core\"), [\"option\" :: \"Option\"])), [TypParam(\"T\")], []))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 150214, data: [8907019716391370296, 4894579091399684], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/option.rs:272:1: 274:2 (#0)\" }, typ: Datatype(Path(Path(Some(\"core\"), [\"option\" :: \"Option\"])), [TypParam(\"T\")], []), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 155187,
+        data: [
+            8907019716391370296,
+            5034741054170122,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:169:9: 175:14 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155134,
+                    data: [
+                        8907019716391370296,
+                        5034904262927167,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:170:24: 170:31 (#0)",
+                },
+                "Call(Fun(Fun(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\" :: \"index\"])), None), [TypParam(\"T\")], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 155131, data: [8907019716391370296, 5034904262927164], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:170:24: 170:28 (#0)\" }, typ: Datatype(Path(Path(Some(\"vstd\"), [\"seq\" :: \"Seq\"])), [TypParam(\"T\")], []), x: Call(Fun(Fun(Path(Some(\"vstd\"), [\"view\" :: \"View\" :: \"view\"])), Some((Fun(Path(Some(\"vstd\"), [\"view\" :: \"impl&%8\" :: \"view\"])), [TypParam(\"T\"), TypParam(\"A\")]))), [Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 155129, data: [8907019716391370296, 5034904262927163], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:170:24: 170:27 (#0)\" }, typ: Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], []), x: Var(VarIdent(\"vec\", VirParam)) }]) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 155132, data: [8907019716391370296, 5034925737763646], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:170:29: 170:30 (#0)\" }, typ: Int(Int), x: Var(VarIdent(\"i\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 155473,
+        data: [
+            8907019716391370296,
+            5046827092143709,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:274:9: 274:86 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155465,
+                    data: [
+                        8907019716391370296,
+                        5047093380116052,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:274:71: 274:77 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, A&, vec!), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155470,
+                    data: [
+                        8907019716391370296,
+                        5047127739854428,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:274:79: 274:85 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, A&, res!), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155471,
+                    data: [
+                        8907019716391370296,
+                        5047041840508509,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:274:59: 274:86 (#0)",
+                },
+                "vstd::pervasive::cloned(T&, vstd::seq::Seq::index(T&, vstd::view::View::view(T&, A&, vec!), i$), vstd::seq::Seq::index(T&, vstd::view::View::view(T&, A&, res!), i$))",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 155473,
+        data: [
+            8907019716391370296,
+            5046827092143709,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:274:9: 274:86 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155465,
+                    data: [
+                        8907019716391370296,
+                        5047093380116052,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:274:71: 274:77 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, A&, vec$), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155470,
+                    data: [
+                        8907019716391370296,
+                        5047127739854428,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:274:79: 274:85 (#0)",
+                },
+                "vstd::seq::Seq::index(T&, vstd::view::View::view(T&, A&, res$), i$)",
+            ),
+        ],
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155471,
+                    data: [
+                        8907019716391370296,
+                        5047041840508509,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:274:59: 274:86 (#0)",
+                },
+                "vstd::pervasive::cloned(T&, vstd::seq::Seq::index(T&, vstd::view::View::view(T&, A&, vec$), i$), vstd::seq::Seq::index(T&, vstd::view::View::view(T&, A&, res$), i$))",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: false,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 155500,
+        data: [
+            8907019716391370296,
+            5046036818161114,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:269:1: 271:21 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 155500,
+                    data: [
+                        8907019716391370296,
+                        5046036818161114,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:269:1: 271:21 (#0)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], [])], None), Datatype(Tuple(1), [Decorate(Ref, None, Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], []))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 155500, data: [8907019716391370296, 5046036818161114], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:269:1: 271:21 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], [])], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 155500, data: [8907019716391370296, 5046036818161114], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:269:1: 271:21 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], []))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 155500, data: [8907019716391370296, 5046036818161114], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/vec.rs:269:1: 271:21 (#0)\" }, typ: Datatype(Path(Path(Some(\"alloc\"), [\"vec\" :: \"Vec\"])), [TypParam(\"T\"), TypParam(\"A\")], []), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 157462,
+        data: [
+            8907019716391370296,
+            5134444425002560,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/smart_ptrs.rs:53:1: 55:21 (#0)",
+    },
+    triggers: [
+        [
+            (
+                Span {
+                    raw_span: "ANY",
+                    id: 157462,
+                    data: [
+                        8907019716391370296,
+                        5134444425002560,
+                    ],
+                    as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/smart_ptrs.rs:53:1: 55:21 (#0)",
+                },
+                "Call(InternalFun(ClosureEns), [FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Decorate(Box, Some(TypDecorationArg { allocator_typ: TypParam(\"A\") }), TypParam(\"T\"))], None), Datatype(Tuple(1), [Decorate(Ref, None, Decorate(Box, Some(TypDecorationArg { allocator_typ: TypParam(\"A\") }), TypParam(\"T\")))], [])], [SpannedTyped { span: Span { raw_span: \"ANY\", id: 157462, data: [8907019716391370296, 5134444425002560], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/smart_ptrs.rs:53:1: 55:21 (#0)\" }, typ: FnDef(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"])), [Decorate(Box, Some(TypDecorationArg { allocator_typ: TypParam(\"A\") }), TypParam(\"T\"))], None), x: ExecFnByName(Fun(Path(Some(\"core\"), [\"clone\" :: \"Clone\" :: \"clone\"]))) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 157462, data: [8907019716391370296, 5134444425002560], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/smart_ptrs.rs:53:1: 55:21 (#0)\" }, typ: Datatype(Tuple(1), [Decorate(Ref, None, Decorate(Box, Some(TypDecorationArg { allocator_typ: TypParam(\"A\") }), TypParam(\"T\")))], []), x: Var(VarIdent(\"closure%\", VirExprNoNumber)) }, SpannedTyped { span: Span { raw_span: \"ANY\", id: 157462, data: [8907019716391370296, 5134444425002560], as_string: \"/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/std_specs/smart_ptrs.rs:53:1: 55:21 (#0)\" }, typ: Decorate(Box, Some(TypDecorationArg { allocator_typ: TypParam(\"A\") }), TypParam(\"T\")), x: Var(VarIdent(\"res\", VirExprNoNumber)) }])",
+            ),
+        ],
+    ],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 26943,
+        data: [
+            8907019716391370296,
+            710271626806806,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/array.rs:26:27: 26:52 (#0)",
+    },
+    triggers: [],
+    low_confidence: false,
+    manual: true,
+}
+ChosenTriggers {
+    module: Path(Some("parity_scale_codec"), ["codec"]),
+    span: Span {
+        raw_span: "ANY",
+        id: 107098,
+        data: [
+            8907019716391370296,
+            3380916651819782,
+        ],
+        as_string: "/home/gui/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vstd-0.0.0-2026-01-25-0057/slice.rs:23:27: 23:52 (#0)",
+    },
+    triggers: [],
+    low_confidence: false,
+    manual: true,
+}

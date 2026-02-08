@@ -55,7 +55,7 @@ impl<'a, 'ast> Visit<'ast> for TypePathStartsWithIdent<'a> {
 		if let Some(segment) = i.path.segments.first() {
 			if &segment.ident == self.ident {
 				self.result = true;
-				return
+				return;
 			}
 		}
 
@@ -106,6 +106,14 @@ fn find_type_paths_not_start_or_contain_ident(ty: &Type, ident: &Ident) -> Vec<T
 
 #[allow(clippy::too_many_arguments)]
 /// Add required trait bounds to all generic types.
+///
+/// Arguments:
+/// * `bound_compact_type`: If true, the trait bound is added to the compact type
+///
+///   ```ignore
+///   where <#type as HasCompact>::Type: #codec_bound
+///   ```
+///   Otherwise only `HasCompact` bound is added.
 pub fn add<N>(
 	input_ident: &Ident,
 	generics: &mut Generics,
@@ -115,11 +123,12 @@ pub fn add<N>(
 	codec_skip_bound: Option<syn::Path>,
 	dumb_trait_bounds: bool,
 	crate_path: &syn::Path,
+	bound_compact_type: bool,
 ) -> Result<()> {
 	let skip_type_params = match custom_trait_bound {
 		Some(CustomTraitBound::SpecifiedBounds { bounds, .. }) => {
 			generics.make_where_clause().predicates.extend(bounds);
-			return Ok(())
+			return Ok(());
 		},
 		Some(CustomTraitBound::SkipTypeParams { type_names, .. }) =>
 			type_names.into_iter().collect::<Vec<_>>(),
@@ -128,12 +137,11 @@ pub fn add<N>(
 
 	let ty_params = generics
 		.type_params()
-		.filter_map(|tp| {
-			skip_type_params.iter().all(|skip| skip != &tp.ident).then(|| tp.ident.clone())
-		})
+		.filter(|tp| skip_type_params.iter().all(|skip| skip != &tp.ident))
+		.map(|tp| tp.ident.clone())
 		.collect::<Vec<_>>();
 	if ty_params.is_empty() {
-		return Ok(())
+		return Ok(());
 	}
 
 	let codec_types =
@@ -163,10 +171,14 @@ pub fn add<N>(
 			.into_iter()
 			.for_each(|ty| where_clause.predicates.push(parse_quote!(#ty : #codec_bound)));
 
-		let has_compact_bound: syn::Path = parse_quote!(#crate_path::HasCompact);
-		compact_types
-			.into_iter()
-			.for_each(|ty| where_clause.predicates.push(parse_quote!(#ty : #has_compact_bound)));
+		compact_types.into_iter().for_each(|ty| {
+			where_clause.predicates.push(parse_quote!(#ty : #crate_path::HasCompact));
+			if bound_compact_type {
+				where_clause
+					.predicates
+					.push(parse_quote!(<#ty as #crate_path::HasCompact>::Type : #codec_bound));
+			}
+		});
 
 		skip_types.into_iter().for_each(|ty| {
 			let codec_skip_bound = codec_skip_bound.as_ref();

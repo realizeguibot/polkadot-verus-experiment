@@ -1,12 +1,24 @@
 // Memory tracking for decoding — DecodeWithMemTracking and DecodeWithMemLimit.
 // Adapted from parity-scale-codec 3.7.5.
 
-use crate::{Decode, Input, Error};
+use crate::{Decode, Input, Error, Compact, CompactAs};
+use crate::alloc::boxed::Box;
+use crate::alloc::vec::Vec;
+use crate::alloc::string::String;
+use crate::alloc::collections::{BTreeMap, BTreeSet, BinaryHeap, LinkedList, VecDeque};
+use crate::alloc::borrow::Cow;
+use crate::alloc::rc::Rc;
+#[cfg(target_has_atomic = "ptr")]
+use crate::alloc::sync::Arc;
+use core::marker::PhantomData;
+use core::num::*;
+use core::ops::{Range, RangeInclusive};
+use core::time::Duration;
 
 /// Marker trait for types that call `Input::on_before_alloc_mem` while decoding.
 pub trait DecodeWithMemTracking: Decode {}
 
-// Implement for primitive types that are commonly used
+// Primitive types
 impl DecodeWithMemTracking for u8 {}
 impl DecodeWithMemTracking for u16 {}
 impl DecodeWithMemTracking for u32 {}
@@ -17,8 +29,78 @@ impl DecodeWithMemTracking for i16 {}
 impl DecodeWithMemTracking for i32 {}
 impl DecodeWithMemTracking for i64 {}
 impl DecodeWithMemTracking for i128 {}
+impl DecodeWithMemTracking for f32 {}
+impl DecodeWithMemTracking for f64 {}
 impl DecodeWithMemTracking for bool {}
-impl DecodeWithMemTracking for () {}
+
+// NonZero types
+impl DecodeWithMemTracking for NonZeroI8 {}
+impl DecodeWithMemTracking for NonZeroI16 {}
+impl DecodeWithMemTracking for NonZeroI32 {}
+impl DecodeWithMemTracking for NonZeroI64 {}
+impl DecodeWithMemTracking for NonZeroI128 {}
+impl DecodeWithMemTracking for NonZeroU8 {}
+impl DecodeWithMemTracking for NonZeroU16 {}
+impl DecodeWithMemTracking for NonZeroU32 {}
+impl DecodeWithMemTracking for NonZeroU64 {}
+impl DecodeWithMemTracking for NonZeroU128 {}
+
+// Arrays
+impl<T: DecodeWithMemTracking, const N: usize> DecodeWithMemTracking for [T; N] {}
+
+// Smart pointers
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for Box<T> {}
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for Rc<T> {}
+#[cfg(target_has_atomic = "ptr")]
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for Arc<T> {}
+
+// Option / Result
+impl DecodeWithMemTracking for crate::OptionBool {}
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for Option<T> {}
+impl<T: DecodeWithMemTracking, E: DecodeWithMemTracking> DecodeWithMemTracking for Result<T, E> {}
+
+// Collections
+impl DecodeWithMemTracking for String {}
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for Vec<T> {}
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for VecDeque<T> {}
+impl<K: DecodeWithMemTracking, V: DecodeWithMemTracking> DecodeWithMemTracking for BTreeMap<K, V> where BTreeMap<K, V>: Decode {}
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for BTreeSet<T> where BTreeSet<T>: Decode {}
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for LinkedList<T> where LinkedList<T>: Decode {}
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for BinaryHeap<T> where BinaryHeap<T>: Decode {}
+
+// Cow
+impl<'a, T: crate::alloc::borrow::ToOwned + ?Sized> DecodeWithMemTracking for Cow<'a, T>
+where
+	Cow<'a, T>: Decode,
+	T::Owned: DecodeWithMemTracking,
+{}
+
+// Other std types
+impl<T> DecodeWithMemTracking for PhantomData<T> where PhantomData<T>: Decode {}
+impl DecodeWithMemTracking for Duration {}
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for Range<T> {}
+impl<T: DecodeWithMemTracking> DecodeWithMemTracking for RangeInclusive<T> {}
+
+// Compact types
+impl DecodeWithMemTracking for Compact<()> {}
+impl DecodeWithMemTracking for Compact<u8> {}
+impl DecodeWithMemTracking for Compact<u16> {}
+impl DecodeWithMemTracking for Compact<u32> {}
+impl DecodeWithMemTracking for Compact<u64> {}
+impl DecodeWithMemTracking for Compact<u128> {}
+impl<T> DecodeWithMemTracking for Compact<T>
+where
+	T: CompactAs,
+	Compact<T::As>: DecodeWithMemTracking,
+{}
+
+// Tuples (up to 18 elements)
+#[impl_trait_for_tuples::impl_for_tuples(18)]
+impl DecodeWithMemTracking for Tuple {}
+
+// Bytes (feature-gated)
+#[cfg(feature = "bytes")]
+impl DecodeWithMemTracking for bytes::Bytes {}
 
 const DECODE_OOM_MSG: &str = "Heap memory limit exceeded while decoding";
 

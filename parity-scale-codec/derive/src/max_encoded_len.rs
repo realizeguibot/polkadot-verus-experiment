@@ -20,7 +20,7 @@ use crate::{
 	utils::{codec_crate_path, custom_mel_trait_bound, has_dumb_trait_bound, should_skip},
 };
 use quote::{quote, quote_spanned};
-use syn::{parse_quote, spanned::Spanned, Data, DeriveInput, Fields, Type};
+use syn::{parse_quote, spanned::Spanned, Data, DeriveInput, Field, Fields};
 
 /// impl for `#[derive(MaxEncodedLen)]`
 pub fn derive_max_encoded_len(input: proc_macro::TokenStream) -> proc_macro::TokenStream {
@@ -43,16 +43,18 @@ pub fn derive_max_encoded_len(input: proc_macro::TokenStream) -> proc_macro::Tok
 		parse_quote!(#crate_path::MaxEncodedLen),
 		None,
 		has_dumb_trait_bound(&input.attrs),
-		&crate_path
+		&crate_path,
+		false,
 	) {
-		return e.to_compile_error().into()
+		return e.to_compile_error().into();
 	}
 	let (impl_generics, ty_generics, where_clause) = input.generics.split_for_impl();
 
-	let data_expr = data_length_expr(&input.data);
+	let data_expr = data_length_expr(&input.data, &crate_path);
 
 	quote::quote!(
 		const _: () = {
+			#[automatically_derived]
 			impl #impl_generics #crate_path::MaxEncodedLen for #name #ty_generics #where_clause {
 				fn max_encoded_len() -> ::core::primitive::usize {
 					#data_expr
@@ -64,22 +66,12 @@ pub fn derive_max_encoded_len(input: proc_macro::TokenStream) -> proc_macro::Tok
 }
 
 /// generate an expression to sum up the max encoded length from several fields
-fn fields_length_expr(fields: &Fields) -> proc_macro2::TokenStream {
-	let type_iter: Box<dyn Iterator<Item = &Type>> = match fields {
-		Fields::Named(ref fields) => Box::new(
-			fields.named.iter().filter_map(|field| if should_skip(&field.attrs) {
-				None
-			} else {
-				Some(&field.ty)
-			})
-		),
-		Fields::Unnamed(ref fields) => Box::new(
-			fields.unnamed.iter().filter_map(|field| if should_skip(&field.attrs) {
-				None
-			} else {
-				Some(&field.ty)
-			})
-		),
+fn fields_length_expr(fields: &Fields, crate_path: &syn::Path) -> proc_macro2::TokenStream {
+	let fields_iter: Box<dyn Iterator<Item = &Field>> = match fields {
+		Fields::Named(ref fields) =>
+			Box::new(fields.named.iter().filter(|field| !should_skip(&field.attrs))),
+		Fields::Unnamed(ref fields) =>
+			Box::new(fields.unnamed.iter().filter(|field| !should_skip(&field.attrs))),
 		Fields::Unit => Box::new(std::iter::empty()),
 	};
 	// expands to an expression like
@@ -92,9 +84,10 @@ fn fields_length_expr(fields: &Fields) -> proc_macro2::TokenStream {
 	// `max_encoded_len` call. This way, if one field's type doesn't implement
 	// `MaxEncodedLen`, the compiler's error message will underline which field
 	// caused the issue.
-	let expansion = type_iter.map(|ty| {
+	let expansion = fields_iter.map(|field| {
+		let ty = &field.ty;
 		quote_spanned! {
-			ty.span() => .saturating_add(<#ty>::max_encoded_len())
+			ty.span() => .saturating_add(<#ty as #crate_path::MaxEncodedLen>::max_encoded_len())
 		}
 	});
 	quote! {
@@ -103,9 +96,9 @@ fn fields_length_expr(fields: &Fields) -> proc_macro2::TokenStream {
 }
 
 // generate an expression to sum up the max encoded length of each field
-fn data_length_expr(data: &Data) -> proc_macro2::TokenStream {
+fn data_length_expr(data: &Data, crate_path: &syn::Path) -> proc_macro2::TokenStream {
 	match *data {
-		Data::Struct(ref data) => fields_length_expr(&data.fields),
+		Data::Struct(ref data) => fields_length_expr(&data.fields, crate_path),
 		Data::Enum(ref data) => {
 			// We need an expression expanded for each variant like
 			//
@@ -120,12 +113,15 @@ fn data_length_expr(data: &Data) -> proc_macro2::TokenStream {
 			//
 			// Each variant expression's sum is computed the way an equivalent struct's would be.
 
-			let expansion = data.variants.iter().map(|variant| {
-				let variant_expression = fields_length_expr(&variant.fields);
-				quote! {
-					.max(#variant_expression)
-				}
-			});
+			let expansion =
+				data.variants.iter().filter(|variant| !should_skip(&variant.attrs)).map(
+					|variant| {
+						let variant_expression = fields_length_expr(&variant.fields, crate_path);
+						quote! {
+							.max(#variant_expression)
+						}
+					},
+				);
 
 			quote! {
 				0_usize #( #expansion )* .saturating_add(1)

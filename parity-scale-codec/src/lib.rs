@@ -19,6 +19,11 @@
 
 use vstd::prelude::*;
 
+#[doc(hidden)]
+pub mod __private {
+	pub use const_format::concatcp;
+}
+
 #[cfg(not(feature = "std"))]
 #[macro_use]
 #[doc(hidden)]
