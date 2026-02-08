@@ -67,6 +67,8 @@ mod error;
 mod max_encoded_len;
 #[cfg(feature = "max-encoded-len")]
 mod const_encoded_len;
+mod counted_input;
+mod mem_tracking;
 
 pub use self::error::Error;
 pub use self::codec::{
@@ -83,6 +85,8 @@ pub use self::decode_finished::DecodeFinished;
 pub use self::depth_limit::DecodeLimit;
 pub use self::encode_append::EncodeAppend;
 pub use self::encode_like::{EncodeLike, Ref};
+pub use self::counted_input::CountedInput;
+pub use self::mem_tracking::{DecodeWithMemTracking, DecodeWithMemLimit, MemTrackingInput};
 #[cfg(feature = "max-encoded-len")]
 pub use max_encoded_len::MaxEncodedLen;
 #[cfg(feature = "max-encoded-len")]
